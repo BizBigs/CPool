@@ -1,0 +1,2 @@
+/usr/bin/ar qc libex001_lib.a CMakeFiles/ex001_lib.dir/my_print_alpha.c.o
+/usr/bin/ranlib libex001_lib.a

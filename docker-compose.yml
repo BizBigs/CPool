@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  cpool:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app/build
+    tty: true              # Permet d'avoir un terminal interactif
+    stdin_open: true       # Ouvre le stdin pour interagir
+    command: ["bash", "-c", "./build/main; exec bash"]  # Ou une autre méthode
