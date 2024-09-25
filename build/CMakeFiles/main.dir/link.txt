@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/main.dir/main.c.o -o main  ex001/libex001_lib.a ex002/libex002_lib.a ex000/libex000_lib.a 

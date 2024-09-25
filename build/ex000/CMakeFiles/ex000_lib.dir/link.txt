@@ -1,2 +1,0 @@
-/usr/bin/ar qc libex000_lib.a CMakeFiles/ex000_lib.dir/my_putchar.c.o
-/usr/bin/ranlib libex000_lib.a

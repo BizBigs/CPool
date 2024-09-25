@@ -1,2 +1,0 @@
-/usr/bin/ar qc libex002_lib.a CMakeFiles/ex002_lib.dir/my_print_revalpha.c.o
-/usr/bin/ranlib libex002_lib.a
