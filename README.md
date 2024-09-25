@@ -4,10 +4,12 @@
 
 1. **Démarrer les services Docker :**
    Pour lancer le projet, exécutez la commande suivante :
+
    ```sh
    docker-compose up -d --build
 
    ```
+
 2. **Se connecter au conteneur :**
    Une fois les services Docker démarrés, connectez-vous au conteneur avec la commande suivante :
 
@@ -31,3 +33,13 @@
 
 5. **Recompiler après modifications :**
    À chaque modification du code, n'oubliez pas de relancer la commande `make` à l'intérieur du conteneur pour recompiler le projet.
+
+6. **Ajouter un nouvel exercice ou dossier :**
+   Tous les dossiers d'exercices doivent commencer par ex\*
+
+   Pour chaque nouvel exercice ou dossier ajouté: à l'intérieur du conteneur dans le dossier `build`, exécutez les commandes suivantes :
+
+   ```sh
+   cmake ..
+   make
+   ```
