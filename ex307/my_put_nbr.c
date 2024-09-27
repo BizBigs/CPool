@@ -1,5 +1,4 @@
 #include "my_put_nbr.h"
-#include <stdio.h>
 
 int get_mult_parser(int *nb)
 {
